@@ -35,6 +35,7 @@ Background Information:
 
 """
 
+# Import required programs
 import os system
 import Adafruit_BBIO.EDC as ADC
 import Adafruit_BBIO.GPIO as GPIO
@@ -49,6 +50,11 @@ GPIO.setup(BUTTON, GPIO.IN)
 # Initialize voice file
 flite -t "this is the voice file" -o voicefile.wav
 
+# When the button is pressed...
 if(GPIO.input(BUTTON0) == 1):
+    # Immediately start recording using the microphone for 10 seconds
     os.system(arecord -d 10 -f cd voicefile.wav)
+    # Then will play the audio back from the audio output
     os.system(aplay voicefile.wav)
+
+# That's it! (:
