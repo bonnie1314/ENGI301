@@ -1,1 +1,23 @@
-asdfsadf
+"""
+
+------------------------------------------------------------------------
+README for Project 01
+------------------------------------------------------------------------
+* BUILD INSTRUCTIONS:
+    1. collect all of the needed hardware devices
+    2. solder the pocketbeagle pins (4 rows) and connect the UB & UI and ID & GND also by soldering them together
+    3. use the micro USB adapter to connect the female USB 
+    4. add the plugable audio adapter to the USB port and attach the microphone and earphones to the respective places
+    5. add the push button anywhere you want
+    6. use the fritzing diagram to wire the breadboard (4 wires total) and add the resistors (3 total)
+    7. you have successfully wired build the device! (:
+    
+* OPERATION INSTRUCTIONS:
+    1. press the push button
+    2. use the microphone to say what you want to record (immediately starts to record once the button is pressed, and 
+    will continue to do so for 10 seconds)
+    3. then use the earphones to hear your audio file back (immediately after it records)
+    4. now you have a voice recorder/playback device! (:
+------------------------------------------------------------------------
+
+"""
