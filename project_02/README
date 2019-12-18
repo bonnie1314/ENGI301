@@ -1,1 +1,23 @@
+"""
 
+------------------------------------------------------------------------
+README for Project 02
+------------------------------------------------------------------------
+* BUILD INSTRUCTIONS:
+    1. download Eagle Autodesk
+      (make sure you download the premium education version if possible!)
+    2. create a new library with all the devices and footprints you will need
+       - resistor
+       - pocketbeagle
+       - push button
+       - usb adapter
+    3. create a schematic 
+    4. use the schematic to create the ratsnest on the board
+    5. make sure to route all the airwires
+       - for signals: 10 mil trace and 10 mil space
+       - for gnd/pwr: 15 mil trace and 15 mil space
+       - for vias: 12 mil drill and 24 mil vias
+    6. generate gerber files, then use gerbv to view
+------------------------------------------------------------------------
+
+"""
