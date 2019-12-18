@@ -1,0 +1,7 @@
+Partlist exported from /Users/bonnie/Documents/EAGLE/projects/engi 301 project 2/engi 301 project 2 WangB.sch at 12/18/19 1:51 PM
+
+Qty Value        Device       Package       Parts Description                  
+1                R_R0402      R0402         R1    RESISTOR, American symbol    
+1   LED          LED          EIA-STD       D1    LTST-C191TBKT Series of LEDs 
+1   POCKETBEAGLE POCKETBEAGLE POCKETBEAGLE  U1                                 
+1   PUSH_BUTTON  PUSH_BUTTON  BUTTON_12.5MM SW1                                
